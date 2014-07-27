@@ -1,6 +1,6 @@
 ## Footballbot Workshop UI
 
-![Screenshot](http://oi57.tinypic.com/24wfwqw.jpg)
+![Screenshot](http://oi61.tinypic.com/2ecokk9.jpg)
 
 > Node-webkit based UI for [footballbot-workshop](https://github.com/tableflip/footballbot-workshop).
 
