@@ -1,6 +1,6 @@
 {
   "name": "footballbot-workshop-ui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.html",
   "scripts": {
@@ -10,7 +10,7 @@
     "build": "gulp build"
   },
   "bin": {
-    "footballbot-workshop-ui": "npm start"
+    "footballbot-workshop-ui": "./index.js"
   },
   "author": "Tancredi Trugenberger",
   "license": "MIT",
