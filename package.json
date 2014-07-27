@@ -1,0 +1,45 @@
+{
+  "name": "footballbot-workshop-ui",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodewebkit .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "author": "Tancredi Trugenberger",
+  "license": "MIT",
+  "window": {
+    "width": 1200,
+    "height": 700,
+    "debug": true,
+    "toolbar": false
+  },
+  "dependencies": {
+    "async": "^0.2.10",
+    "ensureDir": "^1.0.6",
+    "footballbot": "^1.1.0",
+    "footballbot-workshop": "^1.0.2",
+    "johnny-five": "^0.8.1",
+    "marked": "^0.3.2",
+    "nodewebkit": "^0.9.2-8",
+    "open": "0.0.5",
+    "q": "^1.0.1",
+    "slug": "^0.5.0",
+    "string": "^1.9.0",
+    "termio": "0.0.3",
+    "touch": "0.0.3",
+    "vue": "^0.10.5",
+    "watchr": "^2.4.11"
+  },
+  "devDependencies": {
+    "cli-color": "^0.3.2",
+    "gulp": "^3.8.5",
+    "gulp-stylus": "^1.0.2",
+    "stylus": "^0.46.3",
+    "griddy": "0.0.3",
+    "nib": "^1.0.3"
+  }
+}

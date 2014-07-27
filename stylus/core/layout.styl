@@ -1,0 +1,124 @@
+body
+    background bg-color
+    margin 0
+
+header
+    display block
+    background #222
+    margin-bottom 20px
+
+    .page-width
+        line-height 60px
+        clearfix()
+
+    .logo
+        float left
+        type-size
+        color #999
+
+.page-width
+    max-width 1000px
+    margin auto
+
+.row
+    grid-system()
+    cols(20px, '.col', true, '-', 800px)
+
+.left
+    float left
+
+.right
+    float right
+
+.clearfix
+    clearfix()
+
+#view, #view > .row
+    height 100%
+
+.sidebar
+    background color-sidebar
+    width sidebar-width
+    color color-sidebar-type
+    height 100%
+    display block
+    padding 0
+    position fixed
+    left 0
+    top 0
+    z-index 99
+
+    h2
+        padding 10px 30px
+        color color-sidebar-logo-type
+        background color-sidebar-logo-bg
+        margin-bottom 0
+
+    ul
+        debullet()
+
+        li
+            display block
+            padding 10px 30px
+            color color-sidebar-type
+            cursor default
+
+            &:hover
+                color color-sidebar-hover-type
+                background color-sidebar-hover-bg
+
+            &.active
+                background rgba(#000, .2)
+
+tab-color(color)
+    background color
+
+    &:hover:not(.active)
+        background lighten(color, 10)
+
+.nav-tabs
+    position fixed
+    left 0
+    top 0
+    line-height nav-height
+    debullet()
+    padding-left sidebar-width
+    width 100%
+    box-sizing border-box
+
+    li
+        float left
+        text-align center
+        color #fff
+        font-weight bold
+
+        &.tab-problem
+            tab-color(color-tab-problem)
+
+        &.tab-script
+            tab-color(color-tab-script)
+
+        &.tab-solution
+            tab-color(color-tab-solution)
+
+        &.active
+            background bg-color
+            color color-black
+            font-weight normal
+
+.exercise
+    padding 20px
+    padding-left sidebar-width + 20px
+    padding-top nav-height + 20px
+    position relative
+
+    .pane-problem
+        type-size 1.3
+        font-weight bold
+        float none
+
+    .pane-script
+
+        .empty
+            font-style italic
+            margin-bottom 20px
