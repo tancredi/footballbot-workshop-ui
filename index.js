@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // Global declarations polyfill
 global.document = window.document;
 global.navigator = window.navigator;
