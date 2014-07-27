@@ -9,16 +9,13 @@
 ## Setup
 
 ```
-git clone git@github.com:tancredi/footballbot-workshop-ui.git
-cd nodebot-workshop-ui
-npm install
-npm run build
+sudo npm install -g footballbot-workshop-ui
 ```
 
 ## Run
 
 ```
-npm start
+footballbot-workshop-ui
 ```
 
 ## Develop
